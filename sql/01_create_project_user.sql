@@ -1,0 +1,22 @@
+-- Run this script while connected as SYSTEM through the XE service.
+-- Change the password before you run the script. Do not upload a real password to GitHub.
+
+ALTER SESSION SET CONTAINER = XEPDB1;
+
+CREATE USER VSLA_33365_2025_JOHN_DB
+    IDENTIFIED BY ReplaceThisWithYourOwnPassword
+    DEFAULT TABLESPACE USERS
+    TEMPORARY TABLESPACE TEMP
+    QUOTA UNLIMITED ON USERS;
+
+GRANT CREATE SESSION TO VSLA_33365_2025_JOHN_DB;
+GRANT CREATE TABLE TO VSLA_33365_2025_JOHN_DB;
+GRANT CREATE VIEW TO VSLA_33365_2025_JOHN_DB;
+GRANT CREATE SEQUENCE TO VSLA_33365_2025_JOHN_DB;
+GRANT CREATE PROCEDURE TO VSLA_33365_2025_JOHN_DB;
+GRANT CREATE TRIGGER TO VSLA_33365_2025_JOHN_DB;
+
+-- Check that the project user exists in the correct pluggable database.
+SELECT username, account_status
+FROM dba_users
+WHERE username = 'VSLA_33365_2025_JOHN_DB';
