@@ -69,6 +69,14 @@ vsla-management-system/
 └── docs/
 ```
 
+## Capstone Documentation
+
+- [Problem statement and analysis](docs/01_problem_statement.md)
+- [Business process explanation](docs/02_business_process_explanation.md)
+- [Normalization to 3NF](docs/03_normalization_to_3nf.md)
+- [Logical ERD](diagrams/vsla_erd.md)
+- [Screenshot checklist](screenshots/README.md)
+
 ---
 
 ## Database Modules
