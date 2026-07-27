@@ -1,6 +1,3 @@
--- Run while connected as VSLA_33365_2025_JOHN_DB in XEPDB1.
--- Views and reporting queries for documentation, presentation, and APEX.
-
 CREATE OR REPLACE VIEW vw_member_financial_summary AS
 SELECT m.member_id,
        m.member_number,
