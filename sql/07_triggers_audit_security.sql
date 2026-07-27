@@ -1,6 +1,3 @@
--- Run while connected as VSLA_33365_2025_JOHN_DB in XEPDB1.
--- Advanced programming: validation, audit, compound trigger, and DML security.
-
 CREATE OR REPLACE PROCEDURE pr_enforce_dml_window
 IS
     v_holiday_count NUMBER;
