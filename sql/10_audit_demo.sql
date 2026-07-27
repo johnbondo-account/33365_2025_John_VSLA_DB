@@ -1,7 +1,3 @@
--- Run while connected as VSLA_33365_2025_JOHN_DB in XEPDB1.
--- Run this on a Saturday/Sunday that is not listed in PUBLIC_HOLIDAYS.
--- It creates one demonstration contribution and proves that the audit trigger works.
-
 SET SERVEROUTPUT ON;
 
 DECLARE
