@@ -1,6 +1,3 @@
--- Run this script while connected as SYSTEM through the XE service.
--- Change the password before you run the script. Do not upload a real password to GitHub.
-
 ALTER SESSION SET CONTAINER = XEPDB1;
 
 CREATE USER VSLA_33365_2025_JOHN_DB
