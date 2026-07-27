@@ -1,6 +1,3 @@
--- Run while connected as VSLA_33365_2025_JOHN_DB in XEPDB1.
--- Demonstrates the public-holiday DML restriction without leaving test data behind.
-
 SET SERVEROUTPUT ON;
 
 DECLARE
