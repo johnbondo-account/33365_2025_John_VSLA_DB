@@ -1,6 +1,3 @@
--- Run while connected as VSLA_33365_2025_JOHN_DB in XEPDB1.
--- Demonstration data only. Do not use real personal or financial information.
-
 INSERT INTO savings_groups (
     group_id, group_name, location, formation_date, cycle_start_date, cycle_end_date, group_status
 ) VALUES (
