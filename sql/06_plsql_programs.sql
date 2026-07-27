@@ -1,6 +1,3 @@
--- Run while connected as VSLA_33365_2025_JOHN_DB in XEPDB1.
--- Functions, procedures, cursor reporting, exception handling, and package.
-
 CREATE OR REPLACE FUNCTION fn_member_savings_balance (
     p_member_id IN members.member_id%TYPE
 ) RETURN NUMBER
