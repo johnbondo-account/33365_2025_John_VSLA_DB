@@ -1,6 +1,3 @@
--- Run while connected as VSLA_33365_2025_JOHN_DB in XEPDB1.
--- Final database verification for the live demonstration.
-
 PROMPT === TABLES ===
 SELECT table_name
 FROM user_tables
