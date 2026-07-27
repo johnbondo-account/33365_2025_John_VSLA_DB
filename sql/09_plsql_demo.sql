@@ -1,6 +1,3 @@
--- Run while connected as VSLA_33365_2025_JOHN_DB in XEPDB1.
--- Read-only PL/SQL demonstration for the presentation.
-
 SET SERVEROUTPUT ON;
 
 PROMPT === CURSOR REPORT: MEMBER FINANCIAL SUMMARY ===
