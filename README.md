@@ -1,6 +1,6 @@
 # Community Savings Group (VSLA) Management System
 
-An Oracle Database project developed to manage the operations of a Village Savings and Loan Association (VSLA). The system automates member management, savings contributions, loans, repayments, penalties, share-outs, and audit logging using SQL and PL/SQL.
+An Oracle Database Management System developed for a Village Savings and Loan Association (VSLA). The project automates member registration, savings contributions, loan applications, loan approvals, loan disbursements, repayments, penalties, share-outs, and audit logging using Oracle SQL and PL/SQL while demonstrating database design, implementation, and advanced programming concepts.
 
 ## Project Information
 
@@ -8,7 +8,7 @@ An Oracle Database project developed to manage the operations of a Village Savin
 |------|---------|
 | Project Name | 33365_2025_JOHN_VSLA_DB |
 | Database | Oracle Database XE 21c |
-| Schema | VSLA_33365_2025_JOHN_DB |
+| Schema | 33365_2025_JOHN_VSLA_DB |
 | Language | SQL & PL/SQL |
 | Developer | John Bondo |
 
@@ -43,56 +43,43 @@ An Oracle Database project developed to manage the operations of a Village Savin
 
 ---
 
-## Project Structure
-
-```
-vsla-management-system/
+33365_2025_JOHN_VSLA_DB/
 │
 ├── README.md
-├── sql/
-│   ├── 01_create_project_user.sql
-│   ├── 02_create_core_tables.sql
-│   ├── 03_create_financial_tables.sql
-│   ├── 04_create_control_tables.sql
-│   ├── 05_insert_sample_data.sql
-│   ├── 06_plsql_programs.sql
-│   ├── 07_triggers_audit_security.sql
-│   ├── 08_queries_views_reports.sql
-│   ├── 09_plsql_demo.sql
-│   ├── 10_audit_demo.sql
-│   ├── 11_align_identity_columns.sql
-│   ├── 12_security_demo.sql
-│   └── 13_final_verification.sql
-│
+├── docs/
 ├── diagrams/
+│   ├── VSLA_BPMN_Swimlane.png
+│   └── VSLA_ER_Diagram.png
 ├── screenshots/
-└── docs/
-```
+├── sql/
+└── presentation/
+---
+## Project Documentation
 
-## Capstone Documentation
-
-- [Problem statement and analysis](docs/01_problem_statement.md)
-- [Business process explanation](docs/02_business_process_explanation.md)
-- [Normalization to 3NF](docs/03_normalization_to_3nf.md)
-- [Logical ERD](diagrams/vsla_erd.md)
-- [Screenshot checklist](screenshots/README.md)
+- [Phase I – Project Proposal](docs/Phase_1_Project_Proposal.md)
+- [Phase II – Business Process Modeling](docs/Phase_2_Business_Process_Modeling.md)
+- [Phase III – Logical Database Design](docs/Phase_3_Logical_Database_Design.md)
+- [Phase IV – Database Creation](docs/Phase_4_Database_Creation.md)
+- [Phase V – Table Implementation](docs/Phase_5_Table_Implementation.md)
+- [Phase VI – PL/SQL Programming](docs/Phase_6_PLSQL_Programming.md)
+- [Phase VII – Advanced Database Programming](docs/Phase_7_Advanced_Database_Programming.md)
+- [Phase VIII – Documentation and Presentation](docs/Phase_8_Documentation_and_Presentation.md)
 
 ---
 
 ## Database Modules
 
 - Savings Groups
-- Members
+- Member Management
 - Meetings
-- Contributions
+- Savings Contributions
 - Loan Applications
 - Loans
 - Loan Repayments
-- Penalties
-- Share-Outs
+- Penalty Management
+- Share-Out Management
 - Public Holidays
-- Audit Log
-
+- Audit Logging
 ---
 
 ## Installation
@@ -133,7 +120,33 @@ This project demonstrates:
 - Multi-Group Support
 
 ---
+## Business Process Workflow
 
+The following BPMN swimlane diagram illustrates the workflow of the VSLA Management System, showing the interactions between members, the group leader, the treasurer, and the Oracle Database System.
+
+<p align="center">
+  <img src="diagrams/VSLA_BPMN_Swimlane.png" alt="VSLA Management System BPMN Diagram" width="1000">
+</p>
+
+## Logical Entity-Relationship Diagram
+
+The following Entity-Relationship Diagram (ERD) illustrates the logical database structure of the VSLA Management System, including entity relationships, primary keys, and foreign keys.
+
+<p align="center">
+  <img src="diagrams/VSLA_ER_Diagram.png" alt="VSLA Management System ER Diagram" width="1000">
+</p>
+---
+
+## Database Statistics
+
+| Item | Count |
+|------|------:|
+| Tables | 12 |
+| SQL Scripts | 13 |
+| Views | 1 |
+| Triggers | Implemented |
+| Audit Tables | 1 |
+| Reports | Included |
 ## License
 
 This project was developed for academic purposes.
