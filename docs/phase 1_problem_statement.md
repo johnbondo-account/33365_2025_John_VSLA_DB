@@ -13,3 +13,13 @@ Village Savings and Loan Associations (VSLAs) are community-based financial grou
 As the number of members and transactions increases, manual record keeping becomes inefficient and time-consuming. It becomes difficult for treasurers and group leaders to monitor savings balances, manage loan repayments, calculate penalties, and prepare accurate financial reports. In addition, manual systems provide little security, limited accountability, and no reliable audit trail for financial activities.
 
 To address these challenges, this project develops a **Village Savings and Loan Association (VSLA) Management System** using Oracle Database. The system automates the management of savings groups, member registration, savings contributions, loan applications, loan disbursement, loan repayments, meetings, penalties, and share-out records using SQL and PL/SQL. It improves data accuracy, enforces business rules, enhances security, maintains audit records, and supports efficient reporting for better decision-making.
+
+---
+
+## 3. Context of Use
+
+The Village Savings and Loan Association (VSLA) Management System is designed for use by community-based savings groups that manage members' financial activities through regular savings and loan services. The system is intended to support the day-to-day operations of a VSLA by providing a centralized Oracle database for recording and managing savings contributions, loan applications, loan repayments, penalties, meetings, and share-out transactions.
+
+The system will primarily be used by group officials, such as the Chairperson, Treasurer, and Secretary, who are responsible for maintaining member records, processing financial transactions, monitoring outstanding loans, and generating reports. Members also benefit from accurate record keeping, improved transparency, and reliable tracking of their savings and loan activities.
+
+By replacing manual record keeping with an Oracle Database solution, the system improves efficiency, enhances data security, supports auditing, and provides reliable information for decision-making within the VSLA.
