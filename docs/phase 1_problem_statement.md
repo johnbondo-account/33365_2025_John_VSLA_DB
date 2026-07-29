@@ -42,3 +42,24 @@ The Treasurer records savings contributions, manages loan applications and repay
 ### Members
 
 Members use the system indirectly through the VSLA officials. Their savings contributions, loan applications, repayments, penalties, and share-out information are recorded and managed within the Oracle database to ensure accurate, secure, and reliable record keeping.
+
+---
+
+## 5. Project Objectives
+
+### General Objective
+
+To develop an Oracle Database-based Village Savings and Loan Association (VSLA) Management System that automates the management of members, savings, loans, repayments, and other financial activities while improving data accuracy, security, and accountability.
+
+### Specific Objectives
+
+The specific objectives of the project are to:
+
+1. Register and maintain accurate records of VSLA members and savings groups.
+2. Record and manage members' savings contributions efficiently.
+3. Process and track loan applications, loan disbursements, and loan repayments.
+4. Manage penalties and share-out transactions throughout the savings cycle.
+5. Maintain meeting records and other administrative information.
+6. Enforce business rules and maintain data integrity using SQL and PL/SQL.
+7. Improve data security through auditing and controlled database operations.
+8. Generate reliable information that supports financial reporting and decision-making.
