@@ -1,6 +1,15 @@
-# Community Savings Group (VSLA) Management System
+# 💰 Community Savings Group (VSLA) Management System
 
-An Oracle Database Management System developed for a Village Savings and Loan Association (VSLA). The project automates member registration, savings contributions, loan applications, loan approvals, loan disbursements, repayments, penalties, share-outs, and audit logging using Oracle SQL and PL/SQL while demonstrating database design, implementation, and advanced programming concepts.
+An Oracle Database project developed to automate the operations of a Village Savings and Loan Association (VSLA), including member management, savings contributions, loans, repayments, penalties, share-outs, and audit logging using SQL and PL/SQL.
+
+![Oracle](https://img.shields.io/badge/Oracle-21c-red?logo=oracle)
+![SQL](https://img.shields.io/badge/SQL-PL%2FSQL-blue)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen)
+
+---
+
+## 📌 Project Overview
 
 ## Project Information
 
