@@ -63,3 +63,18 @@ The specific objectives of the project are to:
 6. Enforce business rules and maintain data integrity using SQL and PL/SQL.
 7. Improve data security through auditing and controlled database operations.
 8. Generate reliable information that supports financial reporting and decision-making.
+
+---
+
+## 6. Expected Benefits
+
+The implementation of the Village Savings and Loan Association (VSLA) Management System is expected to provide significant benefits to both the organization and its members. These benefits include:
+
+1. Improved accuracy in recording members' savings contributions, loan applications, repayments, penalties, and share-out transactions.
+2. Faster processing of financial transactions through a centralized Oracle database.
+3. Enhanced data security and integrity using Oracle constraints, SQL, PL/SQL, and auditing mechanisms.
+4. Reduced paperwork and manual calculation errors associated with notebook-based record keeping.
+5. Easier monitoring of members' savings balances and outstanding loans.
+6. Improved accountability through audit logs and controlled database operations.
+7. Reliable financial reports that support informed decision-making by VSLA officials.
+8. Better organization and long-term storage of financial records for future reference and reporting.
