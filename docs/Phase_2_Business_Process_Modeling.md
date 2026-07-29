@@ -40,68 +40,7 @@ At the end of the savings cycle, the Treasurer calculates the share-out amount f
 
 ## 4. BPMN Swimlane Diagram
 
-```mermaid
-flowchart LR
-
-%% Member
-subgraph Member
-A([Start])
-B[Register as Member]
-C[Join Savings Group]
-D[Attend Meeting]
-E[Make Savings Contribution]
-F[Apply for Loan]
-G[Repay Loan]
-H[Receive Share-Out]
-I([End])
-end
-
-%% Group Leader
-subgraph Group_Leader
-J[Review Loan Application]
-K{Loan Approved?}
-L[Reject Application]
-end
-
-%% Treasurer
-subgraph Treasurer
-M[Record Contribution]
-N[Disburse Loan]
-O[Record Loan Repayment]
-P[Calculate Share-Out]
-end
-
-%% Oracle Database
-subgraph Oracle_Database_System
-Q[Validate & Store Records]
-R[Update Savings Balance]
-S[Create Loan Record]
-T[Update Outstanding Balance]
-U[Record Share-Out]
-V[Generate Reports & Audit Logs]
-end
-
-A --> B --> C --> D --> E
-E --> M
-M --> Q --> R
-R --> F
-F --> J
-J --> K
-K -- Yes --> N
-K -- No --> L --> I
-N --> S
-S --> G
-G --> O
-O --> T
-T --> P
-P --> U
-U --> H
-H --> V
-V --> I
-```
-
----
-
+![VSLA BPMN Swimlane](../diagrams/VSLA_BPMN_Swimlane.png)
 ## 5. Explanation of the BPMN Diagram
 
 The BPMN diagram illustrates the end-to-end business process of the Village Savings and Loan Association (VSLA) Management System using four swimlanes: Member, Group Leader, Treasurer, and Oracle Database System.
