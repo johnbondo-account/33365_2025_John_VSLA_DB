@@ -97,3 +97,8 @@ The database satisfies Third Normal Form because:
 
 Normalization improves data integrity, minimizes redundancy, and ensures that updates, insertions, and deletions can be performed efficiently without introducing inconsistencies.
 
+---
+
+## 6. Entity Relationship Diagram (ERD)
+
+![VSLA ER Diagram](../diagrams/VSLA_ER_Diagram.png)
