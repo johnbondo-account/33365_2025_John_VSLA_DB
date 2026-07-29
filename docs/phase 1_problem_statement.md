@@ -40,4 +40,5 @@ The Group Leader oversees the activities of the savings group, monitors members'
 The Treasurer records savings contributions, manages loan applications and repayments, calculates penalties where applicable, and maintains accurate financial records.
 
 ### Members
-Members use the system indirectly through the VSLA officials. Their savings contributions, loan applications, repayments, penalties, and share-out information are recorded and managed within the database.Oracle database operates correctly.
+
+Members use the system indirectly through the VSLA officials. Their savings contributions, loan applications, repayments, penalties, and share-out information are recorded and managed within the Oracle database to ensure accurate, secure, and reliable record keeping.
