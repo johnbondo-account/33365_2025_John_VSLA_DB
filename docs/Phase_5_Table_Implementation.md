@@ -40,5 +40,26 @@ The following Oracle constraints were implemented throughout the database:
 - CHECK
 - DEFAULT
 
+---
+
+## 4. Identity Columns
+
+The database uses Oracle identity columns to generate unique identifiers for records. Identity columns simplify data entry by automatically generating primary key values when new records are inserted.
+
+The identity configuration was verified and aligned during the database implementation to ensure consistent key generation across all tables.
+
+---
+
+## 5. Sample Data
+
+Sample data was inserted into the database to demonstrate the functionality of the VSLA Management System. The sample records include savings groups, members, user accounts, contributions, loan applications, loans, repayments, meetings, penalties, public holidays, share-out transactions, and audit records.
+
+These records were used to test SQL queries, PL/SQL programs, triggers, reports, and system functionality.
+
+---
+
+## 6. Implementation Summary
+
+The database implementation successfully created all required tables, constraints, identity columns, and supporting data. The resulting Oracle database provides a structured foundation for managing VSLA operations while maintaining data integrity, consistency, and efficient transaction processing.
 These constraints ensure valid data entry, maintain referential integrity, and enforce business rules within the database.
 
