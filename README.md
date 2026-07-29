@@ -51,18 +51,6 @@ An Oracle Database project developed to automate the operations of a Village Sav
 - GitHub
 
 ---
-
-33365_2025_JOHN_VSLA_DB/
-│
-├── README.md
-├── docs/
-├── diagrams/
-│   ├── VSLA_BPMN_Swimlane.png
-│   └── VSLA_ER_Diagram.png
-├── screenshots/
-├── sql/
-└── presentation/
----
 ## Project Documentation
 
 - [Phase I – Project Proposal](docs/Phase_1_Project_Proposal.md)
