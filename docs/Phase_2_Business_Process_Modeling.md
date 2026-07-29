@@ -55,10 +55,3 @@ At the end of the savings cycle, the Treasurer calculates each member's share-ou
 
 This workflow ensures accurate transaction processing, data integrity, accountability, and efficient management of VSLA financial activities.
 
-## BPMN Swimlane Diagram
-
-The following Business Process Model and Notation (BPMN) swimlane diagram illustrates the workflow of the VSLA Management System. It shows the interactions between the Member, Group Leader, Treasurer, and Oracle Database System during savings contributions, loan applications, approvals, loan disbursements, repayments, and database updates.
-
-<p align="center">
-  <img src="../diagrams/VSLA_BPMN_Swimlane.png" alt="VSLA Management System BPMN Swimlane Diagram" width="1000">
-</p>
